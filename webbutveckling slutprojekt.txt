@@ -4,3 +4,5 @@ Tidlogg webbutveckling slutprojekt
 
 
 19april skapande av github och planering samt skisser. 2timmar
+
+3 maj skapade första filen för hemsidan och började lite smått 20min.
