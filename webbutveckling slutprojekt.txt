@@ -8,3 +8,5 @@ Tidlogg webbutveckling slutprojekt
 3 maj skapade första filen för hemsidan och började lite smått 20min.
 
 7 maj gjorde färdigt hela välkomst sidan. 2timmar
+
+9 maj skapade jag alla sidor och gjorde färdigt det sista med välkomstsidan.
