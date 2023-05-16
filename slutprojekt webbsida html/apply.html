@@ -48,12 +48,69 @@
       </div>
     </nav>
   </nav>
+<!-- meny slutar -->
 
-
-    
-  </div>
+  <!-- Ansökningsformulär börjar-->
 </div>
-
+</div>
+<h3>Apply</h3>
+<form>
+  <ul>
+    <li>
+      <label for="personnummer">Personnummer (ÅÅÅÅMMDD-XXXX)</label>
+      <input type="text" id="personnummer" name="personnummer" required>
+    </li>
+    <li>
+      <label for="firstname">Förnamn</label>
+      <input type="text" id="firstname" name="firstname" required>
+    </li>
+    <li>
+      <label for="lastname">Efternamn</label>
+      <input type="text" id="lastname" name="lastname" required>
+    </li>
+    <li>
+      <label for="co">c/o</label>
+      <input type="text" id="co" name="co"><li>
+        <label for="address">Adress</label>
+        <input type="text" id="address" name="address" required>
+      </li>
+      <li>
+        <label for="postcode">Postnummer</label>
+        <input type="text" id="postcode" name="postcode" required>
+      </li>
+      <li>
+        <label for="city">Ort</label>
+        <input type="text" id="city" name="city" required>
+      </li>
+      <li>
+        <label for="phone">Telefon</label>
+        <input type="text" id="phone" name="phone">
+      </li>
+      <li>
+        <label for="email">E-post</label>
+        <input type="email" id="email" name="email">
+      </li>
+      <p></p>
+      <li>
+        <label for="contact-preference">Hur vill du bli kontaktad? (telefon, e-post, sms)</label>
+        <select id="contact-preference" name="contact-preference">
+          <option value="phone">Telefon</option>
+          <option value="email">E-post</option>
+          <option value="sms">SMS</option>
+        </select>
+        <label for="citizenship">Medborgarskap (svensk, annat (ange land))</label>
+        <select id="citizenship" name="citizenship">
+          <option value="swedish">Svensk</option>
+          <option value="other">Annat (ange land)</option>
+        </select>
+      </li>
+      <button type="submit">Submit</button>
+    </ul>
+  </form>
+</div>
+</div>
+</div>
+<!-- Ansökningsformulär slutar-->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
